@@ -1,0 +1,49 @@
+{
+  "name": "solid-happiness",
+  "version": "1.0.0",
+  "description": "Personal Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config webpack.config.js --mode development",
+    "build:prod": "webpack --config webpack.config.js --mode production",
+    "run": "node src/js/express_main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin-Ocean/solid-happiness.git"
+  },
+  "author": "Martin Oceans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martin-Ocean/solid-happiness/issues"
+  },
+  "homepage": "https://github.com/Martin-Ocean/solid-happiness#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react-hot-loader": "^4.12.21",
+    "resolve-url-loader": "^3.1.1",
+    "sass": "^1.26.9",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
