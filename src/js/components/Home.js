@@ -12,8 +12,19 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="background">
-                test2
+            <div className="container">
+                <section className="background-md background-container">
+                </section>
+                <section><p>spacer1</p></section>
+                <section className="background-md background-container">
+                </section>
+                <section><p>spacer2</p></section>
+                <section className="background-md background-container">
+                </section>
+                <section><p>spacer3</p></section>
+                <section className="background-md background-container">
+                </section>
+                
             </div>
         )
         
