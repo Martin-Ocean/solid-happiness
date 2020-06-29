@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import mobx, { PropTypes } from 'mobx-react';
+import Navigation from './Navigation';
 
 
 class Home extends Component {
@@ -12,8 +13,8 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="container">
-                <section className="background-md background-container">
+            <div>
+                <section className="background-md background-container"><Navigation/>
                 </section>
                 <section><p>spacer1</p></section>
                 <section className="background-md background-container">

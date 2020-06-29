@@ -20,14 +20,18 @@
   },
   "homepage": "https://github.com/Martin-Ocean/solid-happiness#readme",
   "dependencies": {
-    "@material-ui/core": "^4.10.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
     "mobx": "^5.15.4",
     "mobx-react": "^6.2.2",
+    "popper.js": "^1.16.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
